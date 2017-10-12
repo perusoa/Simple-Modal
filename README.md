@@ -1,9 +1,9 @@
 # Simple Modal
 Simple modal with the styles included.
 
-Usage:
+# Usage:
 
-MARKUP
+<h2>MARKUP</h2>
 ```
 <a href="https://www.youtube.com/watch?v=Dv7gLpW91DM" data-modal="modal-video">Open Modal Video</a>
 
@@ -12,7 +12,9 @@ MARKUP
 
 <a href="http://via.placeholder.com/350x150" data-modal="modal-image">Open Modal Video</a>
 ```
-JS
+<h2>JS</h2>
+```
 $('a[data-modal="modal-video"]').customModal();
 $('a[data-modal="modal-content"]').customModal();
 $('a[data-modal="modal-image"]').customModal();
+```
